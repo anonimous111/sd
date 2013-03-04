@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\sd\sd_final_tests\bin\Debug\sd_final_tests.dll" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-03-04" time="03:05:14">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\sd\sd_final_tests\bin\Debug" machine-name="ALDERAMIN" user="vrn" user-domain="ASU" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="D:\sd\sd_final_tests\bin\Debug\sd_final_tests.dll" executed="True" result="Success" success="True" time="2.407" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="sd_final_tests" executed="True" result="Success" success="True" time="2.398" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Class1" executed="True" result="Success" success="True" time="1.687" asserts="0">
+            <results>
+              <test-case name="sd_final_tests.Class1.Test1" executed="True" result="Success" success="True" time="1.240" asserts="1" />
+              <test-case name="sd_final_tests.Class1.Test2" executed="True" result="Success" success="True" time="0.428" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Test_frm_new_inc" executed="True" result="Success" success="True" time="0.460" asserts="0">
+            <results>
+              <test-case name="sd_final_tests.Test_frm_new_inc.Test_Can_regiser_incident" executed="True" result="Success" success="True" time="0.459" asserts="8" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Test_frm_set_des" executed="True" result="Success" success="True" time="0.170" asserts="0">
+            <results>
+              <test-case name="sd_final_tests.Test_frm_set_des.Test_can_set_des" executed="True" result="Success" success="True" time="0.169" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Test_Inc_Controller" executed="True" result="Success" success="True" time="0.068" asserts="0">
+            <results>
+              <test-case name="sd_final_tests.Test_Inc_Controller.Test_Sd_cat_list" executed="True" result="Success" success="True" time="0.035" asserts="5" />
+              <test-case name="sd_final_tests.Test_Inc_Controller.Test_Sd_Class_incident_user_list" executed="True" result="Success" success="True" time="0.004" asserts="4" />
+              <test-case name="sd_final_tests.Test_Inc_Controller.Test_Sd_problem_list" executed="True" result="Success" success="True" time="0.010" asserts="25" />
+              <test-case name="sd_final_tests.Test_Inc_Controller.Test_Sd_reg_incident_user_list" executed="True" result="Success" success="True" time="0.006" asserts="4" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

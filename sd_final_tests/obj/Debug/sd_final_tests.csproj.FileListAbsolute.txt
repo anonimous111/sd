@@ -1,0 +1,11 @@
+D:\sd\sd_final_tests\obj\Debug\ResolveAssemblyReference.cache
+D:\sd\sd_final_tests\bin\Debug\sd_final_tests.dll
+D:\sd\sd_final_tests\bin\Debug\sd_final_tests.pdb
+D:\sd\sd_final_tests\bin\Debug\nunit.framework.dll
+D:\sd\sd_final_tests\bin\Debug\sd_final.exe
+D:\sd\sd_final_tests\bin\Debug\nunit.framework.xml
+D:\sd\sd_final_tests\obj\Debug\sd_final_tests.dll
+D:\sd\sd_final_tests\obj\Debug\sd_final_tests.pdb
+D:\sd\sd_final_tests\bin\Debug\nunit.mocks.dll
+D:\sd\sd_final_tests\bin\Debug\NSubstitute.dll
+D:\sd\sd_final_tests\bin\Debug\sd_final.pdb
