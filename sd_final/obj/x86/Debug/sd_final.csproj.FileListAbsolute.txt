@@ -1,0 +1,16 @@
+D:\sd\sd_final\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\sd\sd_final\obj\x86\Debug\sd_final.frminc_reg.resources
+D:\sd\sd_final\obj\x86\Debug\sd_final.frmlogin.resources
+D:\sd\sd_final\obj\x86\Debug\sd_final.Properties.Resources.resources
+D:\sd\sd_final\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\sd\sd_final\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\sd\sd_final\bin\Debug\sd_final.exe
+D:\sd\sd_final\bin\Debug\sd_final.pdb
+D:\sd\sd_final\obj\x86\Debug\sd_final.exe
+D:\sd\sd_final\obj\x86\Debug\sd_final.pdb
+D:\sd\sd_final\obj\x86\Debug\sd_final.frm_new_inc.resources
+D:\sd\sd_final\bin\Debug\sd_final.exe.config
+D:\sd\sd_final\obj\x86\Debug\sd_final.frm_class.resources
+D:\sd\sd_final\obj\x86\Debug\sd_final.frm_class_inc.resources
+D:\sd\sd_final\obj\x86\Debug\sd_final.frm_set_des.resources
+D:\sd\sd_final\obj\x86\Debug\sd_final.frm_kpi.resources
