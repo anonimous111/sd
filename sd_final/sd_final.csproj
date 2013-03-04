@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6B53F32-17C9-452E-923B-7A0BE303A1BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sd_final</RootNamespace>
+    <AssemblyName>sd_final</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseIncForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Current_User.cs" />
+    <Compile Include="DB_Context.cs" />
+    <Compile Include="frm_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_report.Designer.cs">
+      <DependentUpon>frm_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History_View_Item.cs" />
+    <Compile Include="Inc_Controller.cs" />
+    <Compile Include="IViewInc.cs" />
+    <Compile Include="User_View_Item.cs" />
+    <Compile Include="Inc_View_Item.cs" />
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_set_des.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_set_des.Designer.cs">
+      <DependentUpon>frm_set_des.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_class_inc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_class_inc.Designer.cs">
+      <DependentUpon>frm_class_inc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_class.Designer.cs">
+      <DependentUpon>frm_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_new_inc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_new_inc.Designer.cs">
+      <DependentUpon>frm_new_inc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminc_reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminc_reg.Designer.cs">
+      <DependentUpon>frminc_reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.config" />
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frm_report.resx">
+      <DependentUpon>frm_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_set_des.resx">
+      <DependentUpon>frm_set_des.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_class_inc.resx">
+      <DependentUpon>frm_class_inc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_class.resx">
+      <DependentUpon>frm_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_new_inc.resx">
+      <DependentUpon>frm_new_inc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminc_reg.resx">
+      <DependentUpon>frminc_reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
